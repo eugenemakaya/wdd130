@@ -1,0 +1,65 @@
+
+/* Color */
+
+:root {
+    --primary-color: #10295a;
+    --secondary-color: #ed5027;
+    --accent1-color: #52a7e6;
+    --accent2-color: #f5f5f5;
+  
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+  
+    --nav-background-color: #ed5027;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #10295a;
+    --nav-hover-background-color: #f5f5f5;
+  }
+
+/* Typography */
+
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+/* Navigation */
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+  /* Next */
