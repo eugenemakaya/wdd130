@@ -1,4 +1,10 @@
-nav {
+  * { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
     background-color: steelblue;
     padding: 10px;
   }
@@ -33,9 +39,9 @@ nav {
 
   aside {
     width: 20rem;
-    margin: 1rem;
+/*  margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); 
-    padding: 1rem;
+    padding: 1rem; */
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -60,4 +66,12 @@ nav {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+  }
+
+  /* Class Selectors */
+
+  .box {
+    margin: 1rem;
+    border: 01px solid #52a7e6; 
+    padding: 1rem;
   }
