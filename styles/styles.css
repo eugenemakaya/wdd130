@@ -17,6 +17,12 @@
 
   h1 {
     color: steelblue;
+    padding: 1rem;
+  }
+
+  body {
+    font-size: 16px;
+    font-family: roboto, sans-serif;
   }
 
   img {
@@ -29,6 +35,7 @@
 
   p {
     padding: 10px;
+    margin: 1rem;
   }
 
   /* W02 Style */
@@ -45,6 +52,7 @@
     background-color: #eee;
     color: #333;  */
     text-align: center;
+    position: relative;
   }
 
   aside img {
@@ -52,19 +60,24 @@
     height: auto;
   }
 
+  
   aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 17px;
+    left: 100px;
   }
+
+
 
   main img {
     width: 150px;
     height: auto;
     float: right;
+    margin: 0 0 1rem 1rem;
   }
 
-  p { padding: 0;
+  p { 
+    padding: 0;
   
   }
 
@@ -82,4 +95,8 @@
     padding: 1rem;
     background-color: #f5f5f5;
     color: #10295a;
+  }
+
+  .indent {
+    padding: 2rem;
   }
