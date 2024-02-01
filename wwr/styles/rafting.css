@@ -39,9 +39,9 @@
     padding-bottom: 25px;
     display: block;
     width: 100%;
-    height: auto;
     background-color: #52a6e6a0;
     top: 20px;
+    height: 50px;
   }
   
 /* Navigation */
@@ -78,6 +78,6 @@ article img {
 .hero {
   position: relative;
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
 }
