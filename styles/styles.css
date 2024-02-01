@@ -24,7 +24,7 @@
   h1 {
     color: steelblue;
     padding: 1rem;
-    border-bottom: #10295a 1px;
+    border-bottom: 1px solid #52a7e6;
   }
 
   body {
@@ -84,7 +84,7 @@
     width: 150px;
     height: auto;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 20px 0 1rem 1rem;
   }
 
   p { 
@@ -99,7 +99,7 @@
 
   footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #52a7e6;
     text-align: center;
   }
 
