@@ -110,6 +110,7 @@ article {
 .logo {
   align-self: center;
   justify-self: center;
+  padding: 20px;
 }
 
 figure {
