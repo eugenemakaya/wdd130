@@ -54,6 +54,28 @@
 nav {
   align-self: center;
   justify-self: center;
+  background-color: var(--nav-background-color);
+  font-family: var(--paragraph-font);
+  font-size: 1.2rem;
+  display: flex;
+  
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
 }
 
 /* links */
@@ -92,6 +114,11 @@ article {
 
 figure {
   margin: 0px;
+  text-justify: center;
+}
+
+figcaption {
+  text-align: center;
 }
 
 .adventures {
@@ -155,6 +182,7 @@ article img {
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  background-color: var(--nav-background-color);
 }
 
 footer p {
@@ -167,4 +195,8 @@ footer nav {
   grid-row: 1/2;
   align-self: center;
   justify-self: center;
+}
+
+.sociallinks img {
+  padding-right: 5px; 
 }
