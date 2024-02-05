@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    font-size: 1.2em;
+    color: gray;
+    background: white; 
+}
