@@ -40,3 +40,7 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
   }
+
+  label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+  }
