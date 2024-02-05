@@ -10,3 +10,9 @@ body {
     color: gray;
     background: white; 
 }
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
