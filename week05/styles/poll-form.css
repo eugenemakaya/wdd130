@@ -44,3 +44,11 @@ form {
   label, input, button, select, textarea {
     font-family: Roboto, Arial, sans-serif;
   }
+
+  legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+  }
+
+  
