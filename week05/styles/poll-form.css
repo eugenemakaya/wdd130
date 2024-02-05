@@ -27,7 +27,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid grey; 
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
@@ -37,7 +37,7 @@ form {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
     padding: 1rem;
   }
 
@@ -47,7 +47,7 @@ form {
 
   legend {
     padding: 0.5rem;
-    color: navy;
+    color: maroon;
     font-size: 1.3em;
   }
 
@@ -59,23 +59,27 @@ form {
   input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
+    color: gray; 
+    border-radius: .5rem;
   }
 
   input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
+    
   }
 
   input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
+    
   }
 
   button {
     margin: 1rem;
-    background-color: navy;
+    background-color: maroon;
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -94,4 +98,6 @@ form {
     font-size: 0.8em;
     color: #777;
     border-top: 1px solid #ccc;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
