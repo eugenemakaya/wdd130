@@ -63,20 +63,6 @@ input, select, textarea {
   border-radius: .5rem;
 }
 
-input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  vertical-align: bottom;
-  
-}
-
-input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  vertical-align: bottom;
-  
-}
-
 button {
   margin: 1rem;
   background-color: maroon;
