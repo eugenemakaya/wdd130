@@ -52,8 +52,13 @@
     font-size: 1.7rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 25px;
     padding-bottom: 0px; 
-    padding-top: 0px;
+    padding-top: 0px; 
+  }
+
+  figcaption {
+    padding-top: 10px;
   }
   
 /* Navigation */
@@ -65,14 +70,12 @@ nav {
   font-family: var(--paragraph-font);
   font-size: 1.2rem;
   display: flex;
-  
 }
 
 nav a {
   display: block;
   color: var(--nav-link-color);
   text-decoration: none;
-
   padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -136,7 +139,7 @@ figcaption {
   grid-gap: 5px;
   padding-top: 0px;
   padding-bottom: 70px;
-
+  margin: 20px;
 }
 
 .adventures h2 {
@@ -184,7 +187,7 @@ article img {
 .hero {
   position: relative;
   display: block;
-  width: auto;
+  width: 100vw;
   height: auto;
 }
 
@@ -224,6 +227,7 @@ body {
 }
 
 .sign-up-form {
+  align-items: center;
   padding-bottom: 60px;
 }
 
@@ -272,14 +276,12 @@ input[type="checkbox"] {
   width: 22px;
   height: 22px;
   vertical-align: bottom;
-  
 }
 
 input[type="checkbox"] {
   width: 22px;
   height: 22px;
   vertical-align: bottom;
-  
 }
 
 button {
@@ -312,7 +314,6 @@ button:hover {
   grid-column: 1/4;
   grid-row: 1/2;
   align-self: center;
-
 }
 
 .large-square {
@@ -330,11 +331,11 @@ padding-left: 20px;
 .large-square p {
   position: absolute;
   bottom: 25px;
-  width: 92%;
+  width: 91%;
   background-color: #52a6e6a0;
   padding-top: 10px;
   height: 70px;
-  }
+}
 
 .small-square-1 {
   grid-column: 2/3;
@@ -352,7 +353,7 @@ padding: 0;
 
 .small-square-2 p, h3 {
   padding: 0;
-  }
+}
 
 div .call-to-action {
 grid-column: 2/4;
