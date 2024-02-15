@@ -52,9 +52,17 @@
     font-size: 1.7rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 25px;
+    margin-left: 0px;
     padding-bottom: 0px; 
     padding-top: 0px; 
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    margin: 0;
+
   }
 
   figcaption {
@@ -189,6 +197,7 @@ article img {
   display: block;
   width: 100vw;
   height: auto;
+  overflow: hidden;
 }
 
 /* Footer */
@@ -322,10 +331,15 @@ button:hover {
   position: relative;
 }
 
+.gradient-overlay {
+  width: 613px;
+  height: auto;
+}
+
 .large-square h3 {
 position: absolute;
-bottom: 110px;
-padding-left: 20px;
+bottom: 130px;
+padding-left: 25px;
 }
 
 .large-square p {
@@ -334,7 +348,7 @@ padding-left: 20px;
   width: 91%;
   background-color: #52a6e6a0;
   padding-top: 10px;
-  height: 70px;
+  height: 90px;
 }
 
 .small-square-1 {
@@ -343,7 +357,7 @@ padding-left: 20px;
 }
 
 .small-square-1 p, h3 {
-padding: 0;
+padding: 0px;
 }
 
 .small-square-2 {
@@ -352,7 +366,7 @@ padding: 0;
 }
 
 .small-square-2 p, h3 {
-  padding: 0;
+  padding: 0px;
 }
 
 div .call-to-action {
