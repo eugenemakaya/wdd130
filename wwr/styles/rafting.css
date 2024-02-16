@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 /* Style */
 
 :root {
@@ -302,7 +304,9 @@ input[type="checkbox"] {
   vertical-align: bottom;
 }
 
-button {
+/* Buttons */
+
+.cta, button {
   margin: 1rem;
   background-color: #ed5027;
   color: #fff;
@@ -310,10 +314,15 @@ button {
   border-radius: .5rem;
   padding: .75rem;
   font-size: 1.2rem;
+  width: auto;
 }
 
-button:hover {
+.cta,button:hover {
   background-color: #52a7e6;
+}
+
+.cta,button:active {
+  background-color: #10295a;
 }
 
 /* Trips -------------------------------------------------------- */
