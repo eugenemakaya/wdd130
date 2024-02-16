@@ -2,6 +2,10 @@
 
 /* Style */
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 :root {
     --primary-color: #10295a;
     --secondary-color: #ed5027;
@@ -38,12 +42,11 @@
   h1 {
     position: absolute;
     text-align: center;
-    padding-bottom: 25px;
     display: block;
-    width: 96%;
+    width: 100%;
     background-color: #52a6e6a0;
     top: 20px;
-    height: 50px;
+    height: 100px;
   }
 
   h2 {
