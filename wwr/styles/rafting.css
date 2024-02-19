@@ -25,17 +25,17 @@
 
 :root {
     --primary-color: #10295a;
-    --secondary-color: #ed5027;
+    --secondary-color: #C82900;
     --accent1-color: #52a7e6;
     --accent2-color: #f5f5f5;
   
     --heading-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
   
-    --nav-background-color: #ed5027;
+    --nav-background-color: #c82900;
     --nav-link-color: #fff;
     --nav-hover-link-color: #10295a;
-    --nav-hover-background-color: #f5f5f5;
+    --nav-hover-background-color: #52a7e6;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -50,19 +50,21 @@
   p {
     color: var(--primary-color);
     font-family: var(--paragraph-font);
+    font-weight: 500;
     padding-left: 25px;
     padding-right: 25px;
   }
 
   h1 {
+    font-size: 4rem;
     position: absolute;
     text-align: center;
     display: block;
     width: 100%;
-    background-color: #52a6e6c7;
+    background-color: #10295ad7;
     color: #fff;
     top: 20px;
-    height: 100px;
+    height: 120px;
   }
 
   h2 {
@@ -117,7 +119,8 @@ article {
   position: absolute;
   top: 400px;
   margin: 90px;
-  background-color: #52a6e6a0;
+  background-color: #10295ad7;
+  color: #fff;
 }
 
 figure {
@@ -139,7 +142,7 @@ article img {
 
 .cta, button {
   margin: 1rem;
-  background-color: #ed5027;
+  background-color: #C82900;
   color: #fff;
   border: none;
   border-radius: .5rem;
@@ -150,10 +153,12 @@ article img {
 
 .cta,button:hover {
   background-color: #52a7e6;
+  color: #10295a;
 }
 
 .cta,button:active {
   background-color: #10295a;
+  color: #fff;
 }
 
 /*******************************************************
@@ -214,6 +219,7 @@ footer {
 footer p {
   grid-column: 2/3;
   grid-row: 1/2;
+  color: #fff;
 }
 
 footer nav {
@@ -239,6 +245,10 @@ footer nav {
   width: 100vw;
   height: auto;
   overflow: hidden;
+}
+
+.hero p, h4 {
+  color: #fff;
 }
 
 .sociallinks img {
@@ -363,7 +373,7 @@ p.second-paragraph {
 .large-square h3 {
   position: absolute;
   z-index: 999;
-  bottom: 105px;
+  bottom: 135px;
   padding-left: 25px;
   color: #fff;
 }
@@ -373,10 +383,10 @@ p.second-paragraph {
   bottom: 25px;
   width: 100%;
   overflow: hidden;
-  background-color: #52a6e6c7;
+  background-color: #10295ad7;
   color: #fff;
-  padding-top: 50px;
-  height: 130px;
+  padding-top: 40px;
+  height: 150px;
 }
 
 .small-square-1 {
@@ -409,23 +419,28 @@ div .call-to-action {
 table {
   width: 96.5%;
   border-collapse: collapse;
-  border-bottom: 1px solid #52a7e6;
-  border-left: 1px solid #52a7e6;
-  border-right: 1px solid #52a7e6;
+  border-bottom: 1px solid #C82900;
+  border-left: 1px solid #C82900;
+  border-right: 1px solid #C82900;
   padding: 20px;
   margin-bottom: 100px;
   margin-left: 20px;
 }
 
+thead {
+  background-color: #C82900;
+  color: #fff;
+}
+
 th, td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #52a7e6;
-  border-right: 1px solid #52a7e6;
+  border-bottom: 1px solid #C82900;
+  border-right: 1px solid #C82900;
 }
 
 th {
-  background-color: #ed5027;
+  background-color: #10295a;
   text-align: center;
   }
 
@@ -433,10 +448,7 @@ th {
     text-align: right;
   }
 
-thead {
-  background-color: #10295a;
-  color: #fff;
-}
+
 caption {
   font-weight: 500;
   font-size: smaller;
@@ -481,8 +493,9 @@ label, input, button, select, textarea {
 
 legend {
   padding: 0.5rem;
-  color: #ed5027;
+  color: #C82900;
   font-size: 1.3em;
+  font-weight: 600;
 }
 
 label {
