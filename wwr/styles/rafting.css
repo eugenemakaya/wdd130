@@ -59,7 +59,8 @@
     text-align: center;
     display: block;
     width: 100%;
-    background-color: #52a6e6a0;
+    background-color: #52a6e6c7;
+    color: #fff;
     top: 20px;
     height: 100px;
   }
@@ -361,18 +362,21 @@ p.second-paragraph {
 
 .large-square h3 {
   position: absolute;
-  bottom: 130px;
+  z-index: 999;
+  bottom: 105px;
   padding-left: 25px;
+  color: #fff;
 }
 
 .large-square p {
   position: absolute;
   bottom: 25px;
-  width: 98.5%;
+  width: 100%;
   overflow: hidden;
-  background-color: #52a6e6a0;
-  padding-top: 10px;
-  height: 90px;
+  background-color: #52a6e6c7;
+  color: #fff;
+  padding-top: 50px;
+  height: 130px;
 }
 
 .small-square-1 {
