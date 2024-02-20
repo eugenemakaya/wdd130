@@ -233,6 +233,14 @@ footer nav {
   padding-right: 5px; 
 }
 
+.wireframe-link {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  color: #fff; 
+}
+
+
 /*******************************************************
 *
 *              Rules for classes used on all pages
